@@ -67,7 +67,7 @@ rules:
   resourceNames: ["heapster"]
   verbs: ["proxy"]
 - apiGroups: [""]
-  resources: ["services/proxy"]
+  resources: ["*"]
   resourceNames: ["heapster", "http:heapster:", "https:heapster:"]
   verbs: ["get"]
 
